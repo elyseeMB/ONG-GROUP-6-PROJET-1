@@ -13,6 +13,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sections/newsletter.css">
 </head>
 
 <body>
@@ -172,7 +173,42 @@
         </div>
     </div>
 </section>
+
 <!-- Agenda -->
+
+
+<!-- Section newsletter -->
+ <section class="layout-base newsletter-section" id="newsletter">
+    <div class="base_width newsletter-content">
+        <img src="ressources/img/img.png" alt="Carnet" class="newsletter-icon">
+
+        <h2>Rejoignez le mouvement</h2>
+        <p class="card-description">
+            Abonnez-vous pour recevoir les invitations à nos prochains
+            vernissages et événements exclusifs.
+        </p>
+
+        <form class="form__newsletter">
+            <fieldset>
+                <legend>Newsletter</legend>
+                <div class="input-group__newsletter">
+                    <input
+                        class="input__newsletter"
+                        id="newsletter-email"
+                        name="email"
+                        type="email"
+                        placeholder="votre@email.com"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+            </fieldset>
+            <button class="button button-primary" type="submit">
+                S'inscrire
+            </button>
+        </form>
+    </div>
+</section>
     </main>
     <!-- le pied de page -->
     <footer class="site-footer">
