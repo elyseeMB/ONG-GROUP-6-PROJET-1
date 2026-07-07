@@ -5,6 +5,7 @@
 
 /* components */
 @import "./components/button.css";
+@import "./components/card.css";
 
 /* sections */
 
@@ -36,6 +37,7 @@
   /* Background */
   --background: #ffffff;
   --color: #ffffff;
+  --color-secondary: rgb(126, 117, 118);
 
   /* Buttons */
   --leading-button: 16px;
@@ -46,7 +48,12 @@
 
   /* Border */
   --border-color-primary: #000000;
+  --border-color-secondary: rgb(207, 196, 197);
   --border-base: 0.666667px;
+
+  /* Card */
+  --background-card: #f5f3f3;
+  --leading-card: 32px;
 }
 
 body {
