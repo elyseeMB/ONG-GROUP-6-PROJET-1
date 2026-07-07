@@ -43,22 +43,6 @@
   gap: var(--space-sm);
 }
 
-.footer-socials a {
-  width: 34px;
-  height: 34px;
-  border: var(--border-base) solid var(--border-color-secondary);
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-socials svg {
-  width: 16px;
-  height: 16px;
-  stroke: var(--color);
-}
-
 @media (max-width: 640px) {
   .footer-inner {
     flex-direction: column;
