@@ -29,6 +29,12 @@ button,
   width: 100%;
 }
 
+.button__icon {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
 /* Button primary */
 .button-primary {
   background-color: var(--button-background-primary);
