@@ -8,7 +8,8 @@
 @import "./components/card.css";
 
 /* sections */
-
+@import "./sections/projects.css";
+@import "./sections/footer.css";
 /* Variable css */
 :root {
   /* container */
