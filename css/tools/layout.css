@@ -1,0 +1,26 @@
+/* Definissez ici les pattern répétitive pour facilité l'intégration de vos sections */
+
+.layout-base {
+  padding-inline: var(--space-base);
+}
+
+.layout-narrow {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: var(--container-padding);
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+  gap: var(--space-base);
+}
+
+.flex-start {
+  align-items: start;
+}
+
+.column {
+  flex-direction: column;
+}
