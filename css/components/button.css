@@ -39,6 +39,8 @@ button,
 .button-primary {
   background-color: var(--button-background-primary);
   color: var(--button-color-primary);
+
+  transition: .3s all ease-in-out;
 }
 
 /* Button secondary */
@@ -46,4 +48,20 @@ button,
   background-color: var(--button-background-secondary);
   color: var(--button-color-secondary);
   border: var(--border-base) solid var(--border-color-primary);
+
+  transition: .3s all ease-in-out;
+}
+
+
+
+/* LES BOUTONS EFFETS  */
+
+.button-secondary:hover, .button-primary:hover {
+    color:var(--color);
+    background-color: var(--button-background-primary);
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+.button-secondary:active, .button-primary:active{
+     background-color: var(--primary-color);
 }

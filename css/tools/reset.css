@@ -64,6 +64,13 @@ fieldset {
   border: none;
 }
 
+legend {
+  visibility: hidden;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
 input {
   padding: 0;
   margin: 0;
