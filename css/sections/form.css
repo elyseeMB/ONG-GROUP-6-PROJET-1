@@ -1,0 +1,56 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xlg);
+}
+
+.form-section {
+  padding-inline: 4rem;
+  padding-block: var(--space-xlg);
+  background-color: #e5e7eb;
+}
+
+.form h2 {
+  margin-top: 0;
+}
+
+.sustain {
+  padding: 3rem;
+  display: flex;
+  background-color: black;
+  color: var(--color);
+}
+
+.sustain-item {
+  flex-direction: column;
+}
+
+.sustain-title {
+  margin-block: 0;
+  font-weight: 500;
+}
+
+.sustain-group-btn {
+  flex-wrap: wrap;
+}
+
+.sustain-group-btn button,
+.sustain-submit-btn {
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: var(--color);
+}
+
+.sustain-badge p {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-xlg);
+  }
+}

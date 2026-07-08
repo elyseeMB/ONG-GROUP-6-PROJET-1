@@ -12,6 +12,7 @@
 @import "./components/agenda-item.css";
 
 /* sections */
+@import "./sections/form.css";
 @import "./sections/projects.css";
 @import "./sections/agenda.css";
 @import "./sections/footer.css";
@@ -31,6 +32,7 @@
   --space-sm: 0.75rem;
   --space-md: 1.5rem;
   --space-lg: 2rem;
+  --space-xlg: 5rem;
   --space-xl: 2.5rem;
   --space-2xl: 3rem;
   --space-3xl: 3.5rem;
