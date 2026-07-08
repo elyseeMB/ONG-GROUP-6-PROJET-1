@@ -13,8 +13,10 @@
 @import "./components/social-link.css";
 
 /* sections */
+@import "./sections/form.css";
 @import "./sections/projects.css";
 @import "./sections/footer.css";
+
 /* Variable css */
 :root {
   /* container */
@@ -30,6 +32,7 @@
   --space-sm: 0.75rem;
   --space-md: 1.5rem;
   --space-lg: 2rem;
+  --space-xlg: 5rem;
 
   /* text */
   --text-base: 16px;
