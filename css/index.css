@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap");
-
 /* Base tools */
 @import "./tools/reset.css";
 @import "./tools/typography.css";
@@ -14,8 +12,11 @@
 @import "./components/agenda-item.css";
 
 /* sections */
+@import "./sections/form.css";
 @import "./sections/projects.css";
+@import "./sections/agenda.css";
 @import "./sections/footer.css";
+
 /* Variable css */
 :root {
   /* container */
@@ -23,7 +24,7 @@
 
   /* font */
   --font-mono: "JetBrains Mono", monospace;
-  --font-sans: "inter", sans-serif;
+  --font-sans: "Hanken Grotesk", sans-serif;
 
   /* space */
   --space-base: 1rem;
@@ -31,6 +32,12 @@
   --space-sm: 0.75rem;
   --space-md: 1.5rem;
   --space-lg: 2rem;
+  --space-xlg: 5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 3rem;
+  --space-3xl: 3.5rem;
+  --space-4xl: 4rem;
+  --space-section: 5rem;
 
   /* text */
   --text-base: 16px;
@@ -40,16 +47,29 @@
   --text-lg: 18px;
   --text-xl: 24px;
   --text-2xl: 32px;
+  --text-3xl: 48px;
+
+  /* line-height */
+  --leading-xs: 12px;
+  --leading-sm: 14px;
+  --leading-1: 16px;
+  --leading-2: 18px;
+  --leading-3: 24px;
+  --leading-4: 32px;
+  --leading-5: 48px;
 
   /* Background */
   --background: #ffffff;
+  --background-secondary: rgb(239, 237, 237);
   --background-agenda: rgb(228, 226, 226);
+
+  /* Color */
   --color: #ffffff;
+  --color-foreground: #000000;
   --color-secondary: rgb(126, 117, 118);
   --color-secondary-agenda: rgb(76, 69, 70);
 
   /* Buttons */
-  --leading-button: 16px;
   --button-background-primary: #000000;
   --button-background-secondary: transparent;
   --button-color-primary: var(--color);
@@ -69,7 +89,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--background);
-  font-family: "Roboto Flex", sans-serif;
+  font-family: var(--font-sans), sans-serif;
 }
 * {
   scroll-behavior: smooth;

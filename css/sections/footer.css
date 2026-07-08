@@ -19,8 +19,10 @@
 }
 
 .footer-brand-tagline {
+  font-family: var(--font-mono);
   font-size: var(--text-xs);
   color: var(--color-secondary);
+  text-transform: uppercase;
 }
 
 .footer-links {
@@ -35,28 +37,13 @@
 }
 
 .footer-links a:hover {
-  color: var(--color);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .footer-socials {
   display: flex;
   gap: var(--space-sm);
-}
-
-.footer-socials a {
-  width: 34px;
-  height: 34px;
-  border: var(--border-base) solid var(--border-color-secondary);
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-socials svg {
-  width: 16px;
-  height: 16px;
-  stroke: var(--color);
 }
 
 @media (max-width: 640px) {

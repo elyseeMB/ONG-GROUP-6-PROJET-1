@@ -34,7 +34,7 @@
 .agenda-item-right-title {
   padding: 0;
   margin: 0;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-weight: 600;
   text-wrap: balance;
   font-size: var(--text-xl);
