@@ -13,6 +13,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sections/newsletter.css">
 </head>
 
 <body>
@@ -126,7 +127,7 @@
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <spanclass="card-label">Résidences d'artistes</span>
+                        <span class="card-label">Résidences d'artistes</span>
                     </div>
                 </div>
                 <div class="card">
@@ -142,12 +143,12 @@
                                 <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
                             </svg>
                             <h3 class="card-title">Diffusion grand public</h3>
-                            <pclass="card-description">Organisation de festivals, projections en plein air et
+                            <p class="card-description">Organisation de festivals, projections en plein air et
                                 concerts gratuits pour animer l'espace public.</p>
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <spanclass="card-label">Événementiel</span>
+                        <span class="card-label">Événementiel</span>
                     </div>
                 </div>
                 <div class="card">
@@ -169,7 +170,7 @@
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <spanclass="card-label">Conservation</span>
+                        <span class="card-label">Conservation</span>
                     </div>
                 </div>
             </div>
@@ -245,8 +246,41 @@
                     </div>
                 </div>
             </div>
-
         </section>
+
+        <!-- Section newsletter -->
+        <section class="layout-base newsletter-section" id="newsletter">
+            <div class="base_width newsletter-content">
+                <img src="ressources/img/img.png" alt="Carnet" class="newsletter-icon">
+
+                <h2>Rejoignez le mouvement</h2>
+                <p class="card-description">
+                    Abonnez-vous pour recevoir les invitations à nos prochains
+                    vernissages et événements exclusifs.
+                </p>
+
+                <form class="form__newsletter">
+                    <fieldset>
+                        <legend>Newsletter</legend>
+                        <div class="input-group__newsletter">
+                            <input
+                                class="input__newsletter"
+                                id="newsletter-email"
+                                name="email"
+                                type="email"
+                                placeholder="votre@email.com"
+                                autocomplete="email"
+                                required
+                            >
+                        </div>
+                    </fieldset>
+                    <button class="button button-primary" type="submit">
+                        S'inscrire
+                    </button>
+                </form>
+            </div>
+        </section>
+
     </main>
     <!-- le pied de page -->
     <footer class="site-footer">
