@@ -11,6 +11,7 @@
 @import "./components/input.css";
 @import "./components/form.css";
 @import "./components/social-link.css";
+@import "./components/agenda-item.css";
 
 /* sections */
 @import "./sections/form.css";
@@ -45,8 +46,10 @@
 
   /* Background */
   --background: #ffffff;
+  --background-agenda: rgb(228, 226, 226);
   --color: #ffffff;
   --color-secondary: rgb(126, 117, 118);
+  --color-secondary-agenda: rgb(76, 69, 70);
 
   /* Buttons */
   --leading-button: 16px;
