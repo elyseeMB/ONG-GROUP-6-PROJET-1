@@ -10,7 +10,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: var(--space-base);
-  padding-inline: var(--space-lg);
 }
 
 .footer-brand-name {

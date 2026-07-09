@@ -98,7 +98,7 @@ make format
 
 
 
-    <header class="layout-base base_width">
+    <header class="layout-base">
 
     </header>
 
@@ -352,7 +352,7 @@ make format
 
 
 
-    <header class="layout-base base_width">
+    <header class="layout-base">
 
     </header>
 
@@ -405,7 +405,7 @@ make format
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="card-icon">
-                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a44 0 0 0-4 4v2" />
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
                                 <circle cx="9" cy="7" r="4" />
                                 <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
                                 <path d="M16 3.13a4 4 0 01 0 7.75" />
@@ -507,7 +507,7 @@ make format
                                 <span>2026</span>
                             </div>
                             <div class="agenda-item-right">
-                                <h4 class="agenda-item-right-title">Vernissage de l'exposition collective</h4>
+                                <h3 class="agenda-item-right-title">Vernissage de l'exposition collective</h3>
                                 <span class="agenda-item-right-meta">18h30 — Galerie Centrale</span>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
@@ -523,7 +523,7 @@ make format
                                 <span>2026</span>
                             </div>
                             <div class="agenda-item-right">
-                                <h4 class="agenda-item-right-title">Conférence "Culture pour tous"</h4>
+                                <h3 class="agenda-item-right-title">Conférence "Culture pour tous"</h3>
                                 <span class="agenda-item-right-meta">
                                     14h00 — Auditorium
                                 </span>
@@ -541,9 +541,9 @@ make format
                                 <span>2026</span>
                             </div>
                             <div class="agenda-item-right">
-                                <h4 class="agenda-item-right-title">
+                                <h3 class="agenda-item-right-title">
                                     Spectacle vivant et restitution
-                                </h4>
+                                </h3>
                                 <span class="agenda-item-right-meta">
                                     20h00 — Grand Théâtre
                                 </span>
@@ -693,7 +693,7 @@ make format
 
 
 
-    <header class="layout-base base_width">
+    <header class="layout-base">
 
     </header>
 
@@ -746,7 +746,7 @@ make format
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="card-icon">
-                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a44 0 0 0-4 4v2" />
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
                                 <circle cx="9" cy="7" r="4" />
                                 <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
                                 <path d="M16 3.13a4 4 0 01 0 7.75" />
@@ -848,7 +848,7 @@ make format
                                 <span>2026</span>
                             </div>
                             <div class="agenda-item-right">
-                                <h4 class="agenda-item-right-title">Vernissage de l'exposition collective</h4>
+                                <h3 class="agenda-item-right-title">Vernissage de l'exposition collective</h4>
                                 <span class="agenda-item-right-meta">18h30 — Galerie Centrale</span>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
@@ -864,7 +864,7 @@ make format
                                 <span>2026</span>
                             </div>
                             <div class="agenda-item-right">
-                                <h4 class="agenda-item-right-title">Conférence "Culture pour tous"</h4>
+                                <h3 class="agenda-item-right-title">Conférence "Culture pour tous"</h4>
                                 <span class="agenda-item-right-meta">
                                     14h00 — Auditorium
                                 </span>
@@ -882,7 +882,7 @@ make format
                                 <span>2026</span>
                             </div>
                             <div class="agenda-item-right">
-                                <h4 class="agenda-item-right-title">
+                                <h3 class="agenda-item-right-title">
                                     Spectacle vivant et restitution
                                 </h4>
                                 <span class="agenda-item-right-meta">
@@ -940,7 +940,7 @@ make format
   <section class="layout-base section form-section">
     <div class="form-grid">
     <div class="flex column">
-        <form action="" method="post" class="form">
+        <form method="post" class="form">
             <h2 class="sustain-title">NOUS CONTACTER</h2>
             <div class="input-group">
                 <label for="fullname" class="input-label">NOM COMPLET</label>

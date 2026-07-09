@@ -1,7 +1,7 @@
 /* Definissez ici les pattern répétitive pour facilité l'intégration de vos sections */
 
 .layout-base {
-  padding-inline: var(--space-base);
+  padding-inline: var(--space-md);
 }
 
 .layout-narrow {
@@ -44,6 +44,14 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-base {
+    padding-inline: var(--space-4xl);
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px) {

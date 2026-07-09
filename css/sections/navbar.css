@@ -4,7 +4,7 @@
   position: sticky;
   top: 0px;
   z-index: 7000;
-  background-color: #fbf9f8;
+  background-color: var(--background-secondary-b);
   padding-bottom: 1rem;
   padding-top: 1rem;
   border-bottom: 0.1px solid rgba(128, 128, 128, 0.466);

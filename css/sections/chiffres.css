@@ -10,6 +10,7 @@
 .chiffre_section .chiffre_content {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .chiffre_section .chiffre_content .big_title_chiffre {
