@@ -56,86 +56,6 @@ make format
 ### Conflicts 1
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayela | Faire vivre l'art</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="css/index.css">
-</head>
-
-<body>
-
-
-
-    <nav class="navbar_bloc">
-        <div class="base_width">
-                <div class="navbar_logo">
-                    mayela
-                </div>
-                <ul class="navebar_links">
-                    <li><a href="#missions">mission</a></li>
-                    <li><a href="#actions">actions</a></li>
-                    <li><a href="#projets">projets</a></li>
-                    <li><a href="#evenements">evenements</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-                 <button class="navbar_btn_don button__small button-primary">Faire un don</button>
-            </div>
-
-    </nav>
-
-
-
-
-
-    <header class="layout-base">
-
-    </header>
-
-    <main>
-
-
-        <section class="hero_section" id="missions">
-              <div class="principal_container base_width ">
-                 <div class="left_box">
-                    <div class="small_title">MANIFESTE INSTITUTIONNEL</div>
-                    <h1>Faire Vivre l'art , partager <br>les savoirs, connecter les <br> communautés</h1>
-                    <p class="description-title"> Notre Mission: Nous dynamisons le territoire à travers des initiatives culturelles accessibles à tous. Notre objectif est de soutenir la création locale et de briser les barrières d'accès à la culture.</p>
-
-
-                    <div class="btn-group ">
-                        <button class="button__icon button-primary">
-                            Découvrir notre impact
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-arrow-right-icon lucide-arrow-right">
-                                <path d="M5 12h14" />
-                                <path d="m12 5 7 7-7 7" />
-                            </svg>
-                        </button>
-                        <button class="button button-secondary btn-outline">Nous rejoindre</button>
-                    </div>
-                </div>
-
-                <div class="right-box">
-                        <img src="ressources/img/img.png" alt="image" >
-                </div>
-
-
-              </div>
-        </section>
-
-
 <<<<<<< feat/section-nos-projets
         <!-- Commencer sur la version mobile (mobile-first) pour le responsive -->
         <!-- layout-base pour l'espace [padding] par default -->
@@ -269,41 +189,6 @@ make format
 
 
 >>>>>>> main
-    </main>
-    <!-- le pied de page -->
-    <footer class="site-footer">
-  <div class="footer-inner layout-narrow">
-
-    <div class="flex column">
-      <span class="footer-brand-name">Akieni Academy</span>
-      <span class="footer-brand-tagline">© 2026. Tous droits réservés.</span>
-    </div>
-
-    <nav class="footer-links">
-      <a href="#">Mentions légales</a>
-      <a href="#">Politique de confidentialité</a>
-      <a href="#">Contact</a>
-    </nav>
-
-    <div class="footer-socials">
-      <a href="#" aria-label="LinkedIn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-          <rect width="4" height="12" x="2" y="9"/>
-          <circle cx="4" cy="4" r="2"/>
-        </svg>
-      </a>
-      <a href="#" aria-label="Twitter">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5 1.5 9.9 2 6c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
-        </svg>
-      </a>
-    </div>
-
-  </div>
-</footer>
-</body>
-</html>
 ```
 
 ### Conflits 2
