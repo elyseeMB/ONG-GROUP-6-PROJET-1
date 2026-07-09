@@ -33,7 +33,12 @@ form button {
   display: none;
 }
 
+.form__newsletter fieldset {
+  width: 100%;
+}
+
 .input__newsletter {
+  width: 100%;
   border: var(--border-base) solid var(--border-color-primary);
   padding-inline: var(--space-md);
   padding-block: var(--space-base);
@@ -48,4 +53,19 @@ form button {
   margin: 0;
   padding-inline: var(--space-md);
   padding-block: var(--space-base);
+  width: 100%;
+}
+
+@media only screen and (min-width: 750px) {
+  .form__newsletter fieldset {
+    width: auto;
+  }
+
+  .input__newsletter {
+    width: auto;
+  }
+
+  .form__newsletter button {
+    width: auto;
+  }
 }
