@@ -27,6 +27,7 @@
   width: 36px;
   height: 36px;
 }
+
 .card:hover {
   background-color: var(--background);
 }

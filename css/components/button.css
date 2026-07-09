@@ -61,6 +61,7 @@ button,
   cursor: pointer;
   transform: translateY(-3px);
 }
+
 .button-secondary:active,
 .button-primary:active {
   background-color: var(--primary-color);
