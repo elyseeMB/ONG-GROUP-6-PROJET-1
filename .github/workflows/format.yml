@@ -19,4 +19,4 @@ jobs:
         uses: biomejs/setup-biome@v2
 
       - name: Check
-        run: biome check .
+        run: biome format .

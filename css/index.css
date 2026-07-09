@@ -91,9 +91,11 @@ body {
   background-color: var(--background);
   font-family: var(--font-sans), sans-serif;
 }
+
 * {
   scroll-behavior: smooth;
 }
+
 body p {
   line-height: 2;
 }
@@ -109,6 +111,7 @@ body p {
   padding-top: 1rem;
   border-bottom: 0.1px solid rgba(128, 128, 128, 0.466);
 }
+
 .navbar_bloc .base_width {
   display: flex;
   justify-content: space-between;
@@ -116,6 +119,7 @@ body p {
 
   flex-wrap: wrap;
 }
+
 .navbar_bloc .navbar_logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -130,9 +134,11 @@ body p {
 
   font-weight: 500;
 }
+
 .navbar_bloc .base_width .navebar_links li {
   display: inline-block;
 }
+
 .navbar_bloc .base_width .navebar_links li a {
   text-decoration: none;
   display: inline-block;
@@ -145,6 +151,7 @@ body p {
   text-transform: capitalize;
   border-bottom: 2px solid transparent;
 }
+
 .navbar_bloc .base_width .navebar_links li:first-child a {
   color: var(--border-color-primary);
   border-bottom: 2px solid var(--border-color-primary);
@@ -154,6 +161,7 @@ body p {
   color: var(--border-color-primary);
   border-bottom: 2px solid var(--border-color-primary);
 }
+
 .navbar_bloc .navbar_btn_don {
   color: var(--color);
 
@@ -165,6 +173,7 @@ body p {
     justify-content: center;
     align-items: center;
   }
+
   .navbar_bloc .base_width .navebar_links {
     width: 100%;
     text-align: center;
@@ -181,6 +190,7 @@ body p {
   padding-right: 5rem;
   padding-left: 5rem;
 }
+
 .principal_container {
   display: flex;
   justify-content: space-around;
@@ -198,13 +208,16 @@ body p {
   margin-bottom: 20px;
   display: inline-flex;
 }
+
 .btn-group button:first-child {
   margin-right: 2rem;
 }
+
 .left_box h1 {
   font-weight: 500;
   line-height: 1.1;
 }
+
 .left_box .description-title {
   color: var(--color-secondary);
 }
@@ -214,6 +227,7 @@ body p {
     padding-right: 0rem;
     padding-left: 0rem;
   }
+
   .principal_container {
     flex-wrap: wrap;
     row-gap: 52px;
@@ -237,6 +251,7 @@ body p {
   background-color: var(--border-color-primary);
   color: var(--color);
 }
+
 .chiffre_section h2 {
   text-align: center;
 }
@@ -253,9 +268,11 @@ body p {
   line-height: 3rem;
   font-weight: 700;
 }
+
 .chiffre_section .chiffre_content article {
   width: 30%;
 }
+
 .chiffre_section .chiffre_content .small_title {
   text-transform: uppercase;
   color: var(--border-color-secondary);
@@ -265,6 +282,7 @@ body p {
   .chiffre_section .chiffre_content {
     flex-wrap: wrap;
   }
+
   .chiffre_section .chiffre_content article {
     width: 100%;
   }

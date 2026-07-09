@@ -1,5 +1,56 @@
 # ONG-GROUP-6-PROJET-1
 
+## Pre-requis:
+
+### Etape 1 : installation de make
+
+```bash
+winget install ezwinports.make
+```
+
+### Etape 2 : installation de biome
+
+```bash
+make install
+```
+
+### Etape 3 : Extension VS Code (Recommandé)
+
+Acceptez l'installation de l'extension Biome qui vous sera proposée.
+
+> **Astuce :** Faites `Ctrl + Shift + P` et cherchez : **Biome: Restart LSP Server**.
+
+### Etape 4 : check le formatage
+
+```bash
+make check
+```
+
+### Etape 5 : formater correctement
+
+```bash
+make format
+```
+
+## Workflow
+
+### 1. Au début
+
+Récupérer le code propre et formater l'espace de travail
+
+```bash
+make sync
+```
+
+### 2. Avant de Push (Vérifier)
+
+Valider pour éviter les conflits d'indentation
+
+```bash
+make check
+make format
+```
+
 ## Conflicts rencontrés
 
 ### Conflicts 1
@@ -971,4 +1022,8 @@
     </footer>
 </body>
 </html>
+```
+
+```
+
 ```
