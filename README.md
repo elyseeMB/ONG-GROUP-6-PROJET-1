@@ -63,7 +63,6 @@ make format
 - **components.html**: sandbox/galerie des composants réutilisables.
 - **css/**: styles (point d'entrée `index.css`; `tools/` utilitaires; `components/` styles réutilisables; `sections/` styles par section).
 - **ressources/img/**: images et icônes utilisées sur le site.
-- **Conseil**: ajouter `LICENSE` et `CONTRIBUTING.md` si absents.
 
 ## Licence
 
