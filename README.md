@@ -51,6 +51,18 @@ make check
 make format
 ```
 
+## Structure & rôle des fichiers (explication concise)
+
+- **Racine**: point d'entrée du site statique et outils de développement.
+- **README.md**: documentation du projet (objectif, installation, workflow).
+- **biome.json**: configuration de Biome (formatage / LSP).
+- **Makefile**: commandes `make` pour installer, formater et vérifier (`make install`, `make format`, `make check`).
+- **index.html**: page d'accueil principale.
+- **components.html**: sandbox/galerie des composants réutilisables.
+- **css/**: styles (point d'entrée `index.css`; `tools/` utilitaires; `components/` styles réutilisables; `sections/` styles par section).
+- **ressources/img/**: images et icônes utilisées sur le site.
+- **Conseil**: ajouter `LICENSE` et `CONTRIBUTING.md` si absents.
+
 ## Conflicts rencontrés
 
 ### Conflicts 1
