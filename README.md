@@ -71,6 +71,8 @@ Le projet est distribué sous la licence MIT. Voir le fichier `LICENSE` à la ra
 
 ## Conflicts rencontrés
 
+Ces conflits sont apparus parce que chaque membre de l'équipe utilisait un formatage de code différent. La résolution proposée est de standardiser un format de code pour toute l'équipe et d'imposer un workflow commun (vérification/formatage avant push) pour éviter que le problème ne se reproduise.
+
 ### Conflicts 1
 
 ```html
