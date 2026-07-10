@@ -1,5 +1,7 @@
 # ONG-GROUP-6-PROJET-1
 
+Ce projet a été créé à des fins éducatives dans le cadre d'un projet d'équipe.
+
 ## Pre-requis:
 
 ### Etape 1 : installation de make
@@ -62,6 +64,10 @@ make format
 - **css/**: styles (point d'entrée `index.css`; `tools/` utilitaires; `components/` styles réutilisables; `sections/` styles par section).
 - **ressources/img/**: images et icônes utilisées sur le site.
 - **Conseil**: ajouter `LICENSE` et `CONTRIBUTING.md` si absents.
+
+## Licence
+
+Le projet est distribué sous la licence MIT. Voir le fichier `LICENSE` à la racine pour le texte complet.
 
 ## Conflicts rencontrés
 
